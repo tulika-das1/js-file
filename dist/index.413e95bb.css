@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.ball_parents {
+  position: relative;
+  width: 100%;
+}
+.ball_parents .ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #f00;
+  position: absolute;
+}
+/*# sourceMappingURL=index.413e95bb.css.map */
