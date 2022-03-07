@@ -26,9 +26,9 @@
 
 // const all_p = document.querySelectorAll('p') // will return array of nodeList
 // all_p.forEach(elem => {
-    // elem.addEventListener('click', (event) => {
-    //     event.target.style.color = '#f00';
-    // })
+//     elem.addEventListener('click', (event) => {
+//         event.target.style.color = '#f00';
+//     })
 
 //     elem.addEventListener('mouseenter', ({target}) => {
 //         const red = randomValue(30, 255)
@@ -77,20 +77,28 @@
 
     // } )
 
-    let ball = document.querySelector(".ball")
-    let i = 0;
-    let screen_width = screen.width
-    let ball_width = ball.offsetWidth
-    let cal = screen_width - ball_width;
-    const interval = setInterval(() => {
-    if(i < cal){
-        i+=3;
-        ball.style.left = i + 'px' 
-    }
-    if(i < cal){
-        i+=3;
-        ball.style.right= i + 'px' 
-    }
+    // let ball = document.querySelector(".ball")
+    // let i = 0;
+    // let screen_width = screen.width
+    // let ball_width = ball.offsetWidth
+    // let cal = screen_width - ball_width;
+    // const interval = setInterval(() => {
+    // if(i < cal){
+    //     i+=3;
+    //     ball.style.left = i + 'px' 
+    // }
+    // if(i < cal){
+    //     i+=3;
+    //     ball.style.right= i + 'px' 
+    // }
     
-    },16)
+    // },16)
+
+const buttons = document.querySelectorAll('.btn');
+
+for (let btn of buttons) {
+    btn.addEventListener('click',(event) => {
+        event.target
+    })
+}
    

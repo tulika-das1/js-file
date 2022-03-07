@@ -11,7 +11,14 @@
 // console.log(Math.floor(Math.random() * (500 - 100 + 1)) + 100)
 
 // Array Functions
-let arr = [10, 20, 35, 25, 80];
+let num= [5,10,15,8,15];
+
+ console.log(Math.max(...num));
+// console.log(num.count());
+
+// const data = Math.max(5,10,15,8,15);
+// const total = data.count();
+// console.log(total);
 
 // arr = arr.map(el => {
 //     return Math.pow(el, 2)
@@ -29,8 +36,8 @@ let arr = [10, 20, 35, 25, 80];
 // arr.shift()
 // arr.unshift(30)
 
-const arr1 = ['Apple', 'Mango', 'Bannana']
-const arr2 = ['Cherry', 'Strawberry', 'Pinaple']
+// const arr1 = ['Apple', 'Mango', 'Bannana']
+// const arr2 = ['Cherry', 'Strawberry', 'Pinaple']
 
 // console.log(arr.length)
 // console.log([...arr1, ...arr2])
@@ -42,7 +49,7 @@ const arr2 = ['Cherry', 'Strawberry', 'Pinaple']
 // console.log(apple)
 
 // String Functions
-let str = "Hello World"
+// let str = "Hello World"
 
 // str = str.slice(1, 3)
 
@@ -57,12 +64,12 @@ let str = "Hello World"
 // console.log(str)
 
 // Objects
-const name = '';
-const obj = {
-    name: 'Tulika',
-    age: 21,
-    skill: 'coding'
-}
+// const name = '';
+// const obj = {
+//     name: 'Tulika',
+//     age: 21,
+//     skill: 'coding'
+// }
 
 // console.log(Object.keys(obj))
 

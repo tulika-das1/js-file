@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Alpine</title>
+    <script src="/alpine.54f1b9ab.js" defer=""></script>
+</head>
+<body>
+    <!-- <div x-data="{counter: 0}">
+        <button @click.prevent="counter++">+</button>
+        <p x-text="counter"></p>
+        <button @click="counter > 0 ? counter-- : ''">-</button>
+    </div> -->
+    <div x-data="{open: true}">89
+        <p x-show="open" x-transition.scale="">This is a P</p>
+    </div>
+
+     <!-- <div x-data="{name: ''}">
+        <p x-text="name" @click="alert(name)"></p>
+        <h1 x-text="name.toUpperCase()"></h1>
+        <input type="text" x-model.debounce="name">
+     </div> -->
+</body>
+</html>
