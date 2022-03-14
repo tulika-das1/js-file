@@ -19,6 +19,9 @@
 //     })
 // })
 
+
+// Focus blur
+
 // document.querySelector("button").addEventListener('click',(event) => {
 //     event.preventDefault();
 //     event.target.style.background="	#FF0000";
@@ -30,6 +33,10 @@
 // document.querySelector("button[type = 'button2']").addEventListener('click',() => {
 //     document.querySelector("input").blur();
 // })
+
+
+
+// input value search
 
 // const names = ["Rahul","Abir","Sumit","Ratul"];
 // let inp = document.querySelector('input');
@@ -55,6 +62,8 @@
 // })
 
 
+//button focus style change  
+
 // let btn = document.querySelectorAll("button")
 // btn.forEach(ele => {
 //     ele.addEventListener('focus',(event) => {
@@ -62,6 +71,8 @@
 //     })
 // })
  
+// button click style change  
+
 // const btn = document.querySelectorAll('button[type="submit"]');
 // btn.forEach(ele => {
 //     ele.addEventListener('click', (event) => {
@@ -70,12 +81,18 @@
 //     });
 // })
 
+
+// Dropdown button
+
 // let btn = document.querySelector("button");
 // let menu = document.querySelector(".drop-down-menu");
 // btn.addEventListener('click', (ev) => {
 //     ev.preventDefault();
 //     menu.classList.toggle('hide');
 // })
+
+
+// animation 
 
 let btn = document.querySelector("div");
 btn.addEventListener('click', () => {
